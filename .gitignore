@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data files
+data/raw/*.csv
+data/processed/*.csv
+
+# Generated model artifacts
+models/*.pkl
+models/*.joblib
+
+# Generated images
+visualizations/*.png
+visualizations/*.jpg
+visualizations/*.jpeg
+
+# Secrets / environment
+.env
+*.secret
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/secrets.toml
