@@ -1,27 +1,12 @@
-# RapidMiner Workflow
+# RapidMiner — Stage 2 Data Engineering
 
-The RapidMiner version of this project will mirror the Python workflow.
+Use `data/raw/Telco-Customer-Churn.csv`.
 
-Planned operators:
+Recommended process:
 
-1. Read CSV
-2. Set Role
-3. Replace Missing Values
-4. Remove Duplicates
-5. Nominal to Numerical
-6. Split Data
-7. Apply Machine Learning Model
-8. Performance
-9. Apply Model
-10. Generate Predictions
+Read CSV → Remove Duplicates → handle `TotalCharges` as numeric → replace missing value(s) → write processed CSV.
 
-Segmentation workflow:
+Python reference implementation:
+`src/data_preprocessing.py`
 
-1. Read CSV
-2. Select Attributes
-3. Normalize
-4. K-Means
-5. Cluster Model
-6. Visualize / inspect clusters
-
-The exact operator configuration and screenshots will be added after the dataset is finalized.
+The exact RapidMiner operator settings and screenshots will be added after the raw dataset is loaded.
